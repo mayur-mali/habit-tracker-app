@@ -1,0 +1,30 @@
+<div class="w-full min-h-screen h-full md:px-4 px-2 max-w-xl flex justify-center items-center mx-auto">
+  <div class="rounded-md p-4 w-full bg-white border h-full">
+    <div class="md:px-8 px-4 space-y-8">
+      <h2 class="text-3xl capitalize text-center font-bold">welcome to habit tracker app</h2>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-20 h-20 mx-auto text-center">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+      </svg>
+      <h2 class="text-4xl capitalize text-center font-bold">Register</h2>
+      <form action="/users/register" method="POST" class="space-y-4">
+
+        <input type="text" name="name" id="name"
+          class="border-2 py-2 focus:outline-none  ring-1 focus:ring-offset-4   rounded-md px-4 w-full"
+          placeholder="Enter Your name.." required>
+        <input type="email" name="email" id="email"
+          class="border-2 py-2 focus:outline-none  ring-1 focus:ring-offset-4   rounded-md px-4 w-full"
+          placeholder="Enter Your Email.." required>
+        <div class="flex justify-center w-full">
+          <button type="submit" class="px-4 py-2 bg-indigo-500 text-white w-64 mx-auto">
+            Register
+          </button>
+        </div>
+      </form>
+      <p class="text-center mt-4">
+        New User? <a href="/users/login">Login</a>
+      </p>
+    </div>
+  </div>
+</div>
