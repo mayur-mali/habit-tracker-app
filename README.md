@@ -12,17 +12,16 @@
 - MongoDB
 - Git
 - NodeJS
-- CLI
 
 ## Installation
 
 ##### Clone the latest Repository
 
-`git clone https://github.com/rahulsups/habit-tracker.git`
+`git clone https://github.com/mayur-mali/habit-tracker-app.git`
 
 ##### Into the project directory
 
-`cd habit-tracker`
+`cd habit-tracker-app`
 
 ##### Installing NPM dependencies
 
@@ -36,31 +35,27 @@
 
 ## Folder Structure
 
-habit-tracker <br>
-├── assets <br>
-│ --- ├── calendar.svg <br>
-│ --- └── css <br>
-│ -------- └── styles.css <br>
-│ -------- └── bootstrap.min.css <br>
-├── config <br>
-│ --- └── keys.js <br>
-├── models <br>
-│ --- ├── Habit.js <br>
-│ --- └── User.js <br>
-├── node_modules <br>
-├── routes <br>
-│ --- ├── index.js <br>
-│ --- └── users.js <br>
-├── views <br>
-│ --- └── partials <br>
-│ -------- └── messages.ejs <br>
-│ --- ├── dashboard.ejs <br>
-│ --- ├── layout.ejs <br>
-│ --- ├── login.ejs <br>
-│ --- ├── register.ejs <br>
-│ --- └── welcome.ejs <br>
-├── .gitignore <br>
-├── app.js <br>
-├── package.json <br>
-├── package-lock.json <br>
-└── README.md <br>
+```
+Habbit-Tracker-App
+├─ .gitignore
+├─ config
+│  ├─ keys.js
+│  └─ mongoose.js
+├─ index.js
+├─ models
+│  ├─ Habit.js
+│  └─ User.js
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ routes
+│  ├─ index.js
+│  └─ users.js
+└─ views
+   ├─ dashboard.ejs
+   ├─ layout.ejs
+   ├─ login.ejs
+   ├─ register.ejs
+   └─ welcome.ejs
+
+```
