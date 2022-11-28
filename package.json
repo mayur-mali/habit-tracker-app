@@ -4,7 +4,7 @@
   "description": "A habit tracking app made up with node js + ejs and tailwind css",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "author": "Mayur Mali",
